@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: 675px;
+    height: 685px;
     background: url("../assets/images/skill-bg.jpg") no-repeat center/cover;
     color: #fdd7d7;
 }
@@ -17,7 +17,7 @@
     margin: 20px 0 0 30px;
 }
 
-li {
+.skill_li {
     margin-left: 40px;
 }
 
@@ -30,4 +30,11 @@ li {
 .main-body h3 {
     margin: 15px 0 5px 0;
     color: blanchedalmond;
+}
+
+/* Media Quries */
+@media (max-width : 465px) {
+    .nav ul li {
+        padding: 10px 8px;
+    }
 }

@@ -42,4 +42,14 @@ footer {
 }
 
 /* Media Quries */
-@media (max-width : 700px) {}
+@media (max-width : 465px) {
+    .nav ul li {
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width : 345px) {
+    .nav ul li {
+        padding: 10px 2px;
+    }
+}

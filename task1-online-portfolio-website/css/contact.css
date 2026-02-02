@@ -30,3 +30,37 @@
 .main-body a {
     color: azure;
 }
+
+/* Media Quries */
+@media (max-width : 500px) {
+    .main-body p {
+        margin: 10px 80px 35px 0;
+    }
+}
+
+@media (max-width : 372px) {
+    .main-body {
+        margin: 35px 25px;
+    }
+
+    .main-body h2 {
+        font-size: 25px;
+        margin: 0 0 20px 30px;
+    }
+
+    .main-body p {
+        margin: 10px 40px 35px 0;
+        font-size: 18px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    .main-body div {
+        margin: 25px 10px;
+        font-size: 18px;
+    }
+
+    .nav ul li {
+        padding: 10px 8px;
+    }
+}

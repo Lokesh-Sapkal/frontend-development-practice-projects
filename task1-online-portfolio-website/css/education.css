@@ -26,3 +26,20 @@
     margin-left: 40px;
     color: rgb(193, 192, 192);
 }
+
+/* Media Quries */
+@media (max-width : 500px) {
+    .main-body h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .main-body h3 {
+        font-size: 20px;
+        margin: 15px 0 7px 0;
+    }
+
+    .main-body p {
+        font-size: 16px;
+    }
+}

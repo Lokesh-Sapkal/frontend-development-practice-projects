@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <header>
+        <h1>Weather Application</h1>
+    </header>
+    <div class="container">
+        <div class="main-body">
+            <div class="search-bar">
+                <input type="text" id="input" placeholder="Enter location">
+                <button id="search" class="btn">Search</button>
+                <button type="reset" id="reset" class="btn">Refresh</button>
+            </div>
+            <div class="details">
+                <div class="location">
+                    <p>📍Country :
+                        <data id="location"></data>
+                    </p>
+                    <p>🕰️Time :
+                        <data id="time"></data>
+                    </p>
+                </div>
+
+                <div class="weather">
+                    <div class="main-weather">
+                        <img id="weather-icon">
+                        <div>
+                            <p>
+                                <data id="temp"></data>
+                            </p>
+                            <p>Feels Like :
+                                <data id="feel"></data>
+                            </p>
+                        </div>
+                    </div>
+                    <p>☁️Weather condition :
+                        <data id="w_cond"></data>
+                    </p>
+                    <p>📝Description :
+                        <data id="desc"></data>
+                    </p>
+                    <p>💧Humidity :
+                        <data id="humidity"></data>
+                    </p>
+                    <p>🌬️Wind speed :
+                        <data id="wind"></data>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <i>&copy; 2026 Weather Application - All Rights Reserved.</i>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.main-body {
+    margin: 0 10px;
+}
+
+#header {
+    font-size: 15px;
+    text-align: center;
+    background: #cbf582;
+    width: 100%;
+    padding: 0.5px;
+    border-bottom: solid #858585;
+}
+
+#blog-head {
+    margin: 5px;
+    margin-top: 0;
+    width: 50%;
+    height: 20px;
+}
+
+#blog-body {
+    margin: 5px;
+    width: 90%;
+    height: 100px;
+}
+
+#sub {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    margin: 5px;
+    height: 27px;
+    color: rgb(255, 252, 227);
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: rgb(101, 101, 101);
+}
+
+#submit:hover {
+    color: #fff;
+    background-color: #908f8f;
+}
+
+#submit:active {
+    color: #f9e67b;
+    background-color: #aeadad;
+}
+
+#reset {
+    margin: 5px;
+    height: 27px;
+    color: rgb(255, 252, 227);
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: rgb(101, 101, 101);
+}
+
+#reset:hover {
+    color: #fff;
+    background-color: #908f8f;
+}
+
+#reset:active {
+    color: #f9e67b;
+    background-color: #aeadad;
+}
+
+ul {
+    border-top: solid #000;
+    padding-top: 18px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 15px;
+    width: 95%;
+    border: solid #616161;
+    border-width: 0.5px;
+    border-radius: 5px;
+    background: #908f8f;
+}
+
+.title {
+    text-align: center;
+    border: solid #616161;
+    border-width: 0.5px;
+    border-radius: 7px;
+    margin: 7px;
+    background-color: rgb(244, 248, 251);
+}
+
+.body {
+    border: solid #616161;
+    border-width: 0.5px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 7px;
+    background-color: rgb(244, 248, 251);
+}
+
+.btn {
+    margin: 5px;
+    text-align: center;
+}
+
+.delete {
+    padding: 1px 10px;
+    border-radius: 5px;
+    background-color: #fdd6d6;
+}
+
+.delete:hover {
+    background-color: #fb8383;
+}
+
+.delete:active {
+    color: #fb8383;
+    background-color: #616161;
+}
+
+.edit {
+    padding: 1px 10px;
+    border-radius: 5px;
+    background-color: #d6fdd6;
+}
+
+.edit:hover {
+    background-color: #89fb89;
+}
+
+.edit:active {
+    color: #89fb89;
+    background-color: #616161;
+}
+
+/* Footer */
+footer {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    align-items: center;
+}

@@ -1,6 +1,99 @@
 # web-development-internship-tasks
-This repository contains a collection of tasks completed during my Web Development Internship.  
-These tasks demonstrate practical skills in HTML, CSS, and JavaScript. They include responsive layouts, UI components, forms, navigation menus and interactive web applications. This is ideal for showcasing fundamental front-end development capabilities.
+This repository contains a collection of front-end web development tasks completed as part of my Web Development Internship.
+
+The projects demonstrate practical skills in HTML, CSS and JavaScript, focusing on responsive design, clean UI/UX, DOM manipulation and interactive web applications.
+
+Each task is built as an independent mini-project to strengthen core front-end concepts and real-world development practices.
+
+---
+
+## 🚀 Tech Stack
+
+- **HTML5** – Semantic structure 
+- **CSS3** – Flexbox, Grid, Media Queries 
+- **JavaScript (ES6)** – DOM manipulation, events, basic logic 
+- **Git & GitHub** – Version control & hosting 
+- **GitHub Pages** – Live project deployment 
+
+---
+
+## 📁 Folder Structure
+```
+web-development-internship-tasks/
+│
+├── task1-online-portfolio-website/
+├── task2-e-commerce-product-page/
+├── task3-navigation-menu/
+├── task4-contact-form/
+├── task5-blogging-platform/
+├── task6-weather-application/
+│
+├── README.md
+├── LICENSE                → (MIT)
+└── .gitignore             → (Node)
+```
+---
+
+## 📌 Task 1 — Online Portfolio Website
+
+### 📖 Description
+A personal **portfolio website** built using HTML, CSS, and JavaScript to showcase profile, skills, projects, education and contact information.
+
+The site is responsive and optimized for mobile, tablet and desktop screens.
+
+### 🎯 Skills & Concepts
+- Responsive design (Media Queries)
+- Flexbox layout
+- Section-based UI
+- JavaScript interactivity
+- Mobile-first approach
+
+### 🗂️ Project Structure
+```
+task1-online-portfolio-website/
+│
+├── index.html
+├── skill.html
+├── project.html
+├── about.html
+├── education.html
+├── contact.html
+│
+├── css/
+│    ├── style.css
+│    ├── index.css
+│    ├── skill.css
+│    ├── project.css
+│    ├── about.css
+│    ├── education.css
+│    └── contact.css
+│
+├── js/
+│    └── main.js
+│
+└── assets/
+    ├── images/           → Section display images
+    ├── resume/           → Resume in pdf format
+    └── screenshots/      → Page preview screenshot
+```
+### 🖼️ Preview
+- Home Page  
+<img src="./task1-online-portfolio-website/assets/screenshots/Home_Page.png" width="500"/>
+
+- Skill Page  
+<img src="./task1-online-portfolio-website/assets/screenshots/Skill_Page.png" width="500"/>
+
+- Project Page  
+<img src="./task1-online-portfolio-website/assets/screenshots/Project_Page.png" width="500"/>
+
+- About Page  
+<img src="./task1-online-portfolio-website/assets/screenshots/AboutMe_Page.png" width="500"/>
+
+- Education Page  
+<img src="./task1-online-portfolio-website/assets/screenshots/Education_Page.png" width="500"/>
+
+- contact Page  
+<img src="./task1-online-portfolio-website/assets/screenshots/Contact_Page.png" width="500"/>
 
 ---
 
@@ -22,21 +115,15 @@ The page focuses on a clean UI, intuitive layout, and responsiveness across diff
 
 ### 🗂️ Project Structure
 ```
-web-development-internship-tasks/
+task2-e-commerce-product-page/
 │
-├── task2-e-commerce-product-page/
-│   ├── index.html
-│   ├── css/
-│   │    └── style.css
-│   └── assets/
-│        ├── img/               → Section display images
-│        └── screenshot/       → Page preview screenshot
-│
-├── README.md
-├── LICENSE                → (MIT)
-└── .gitignore             → (Node)
+├── index.html
+├── css/
+│    └── style.css
+└── assets/
+     ├── img/              → Section display images
+     └── screenshot/       → Page preview screenshot
 ```
-
 ### 🖼️ Preview
 - E-commerce Product Page  
 <img src="./task2-e-commerce-product-page/assets/screenshot/e-commerce-product-page.png" width="500"/>
@@ -46,7 +133,7 @@ web-development-internship-tasks/
 ## 📌 Task 3 — Navigation Menu Webpage
 
 ### 📖 Description
-Developed a simple responsive navigation page with internal section links for smooth user scrolling. The page includes sections like Home, About, Services, Contact, and Footer along with basic UI styling for usability.
+Developed a simple responsive navigation page with internal section links for smooth user scrolling. The page includes sections like Home, About, Services, Contact along with basic UI styling for usability.
 
 ### 🎯 Skills & Concepts
 - HTML semantic sections
@@ -57,21 +144,15 @@ Developed a simple responsive navigation page with internal section links for sm
 
 ### 🗂️ Project Structure
 ```
-web-development-internship-tasks/
+task3-navigation-menu/
 │
-├── task3-navigation-menu/
-│   ├── index.html
-│   ├── css/
-│   │    └── style.css
-│   └── assets/
-│        ├── img/               → Section display images
-│        └── screenshots/       → Page preview screenshot
-│
-├── README.md
-├── LICENSE                → (MIT)
-└── .gitignore             → (Node)
+├── index.html
+├── css/
+│    └── style.css
+└── assets/
+     ├── img/               → Section display images
+     └── screenshots/       → Page preview screenshot
 ```
-
 ### 🖼️ Preview
 
 - Navigated Web Page
@@ -91,35 +172,24 @@ Developed a basic contact form to practice HTML form components such as:
 - File upload
 - Textarea
 
-The form also includes required fields, basic client-side validation, and displays submitted data on a separate results page using URL query parsing.
+The form also includes required fields, basic client-side validation and displays submitted data on a separate results page using URL query parsing.
 
 ### 🎯 Skills & Concepts
 - HTML
 - Form elements & attributes
-- Form validation
+- Client-side validation
 - GET method
 - Basic input handling
 
 ### 🗂️ Project Structure
 ```
-web-development-internship-tasks/
+task4-contact-form/
 │
-├── task4-contact-form/
-│   ├── index.html
-│   ├── results.html
-│   └── assets/
-│        └── screenshots/       → Page preview screenshot
-│
-├── README.md
-├── LICENSE                → (MIT)
-└── .gitignore             → (Node)
+├── index.html
+├── results.html
+└── assets/
+     └── screenshots/       → Page preview screenshot
 ```
-
-### ▶️ How to Run
-1. Open `task4-contact-form/index.html` in a browser.
-2. Fill the form and submit.
-3. Form results will be displayed on `results.html`.
-
 ### 🖼️ Preview
 
 - Contact Form (Empty)
@@ -130,8 +200,109 @@ web-development-internship-tasks/
 
 ---
 
+## 📌 Task 5 — Blogging Platform
+
+### 📖 Description
+A mini **blogging platform** where users can:
+- Create blog posts
+- Edit existing posts
+- Delete posts
+- Data persists on page refresh
+
+### 🎯 Skills & Concepts
+- DOM manipulation
+- JavaScript event handling
+- CRUD operations
+- Local state handling
+- UI updates
+
+### 🗂️ Project Structure
+```
+task5-blogging-platform/
+│
+├── index.html
+├── css/
+│    └── style.css
+├── js/
+│    └── main.js
+└── assets/
+    └── screenshot/       → Page preview screenshot
+```
+### 🖼️ Preview
+- Home Page  
+<img src="./task5-blogging-platform/assets/screenshot/blogging-platform_overview.png" width="500"/>
+
+---
+
+## 📌 Task 6 — Weather Application
+
+### 📖 Description
+A **real-time Weather Application** that fetches and displays weather data based on city input using a public API.
+
+The UI is fully responsive and works in full-screen mode.
+
+### 🎯 Skills & Concepts
+- API integration
+- Fetch API
+- Async JavaScript
+- Error handling
+- Responsive UI
+
+### 🗂️ Project Structure
+```
+task6-weather-application/
+│
+├── index.html
+├── css/
+│    └── style.css
+├── js/
+│    └── main.js
+└── assets/
+    └── screenshot/       → Page preview screenshot
+```
+### 🖼️ Preview
+- Weather App (Empty State)
+
+<img src="./task6-weather-application/assets/screenshot/weatherapp-empty-state.png"
+width="500"/>
+
+- Weather App (e.g. Pune)
+
+<img src="./task6-weather-application/assets/screenshot/weatherapp-pune.png"
+width="500"/>
+
+- Weather App (e.g. Yakutsk)
+
+<img src="./task6-weather-application/assets/screenshot/weatherapp-yakutsk.png"
+width="500"/>
+
+---
+
+### ▶️ How to Run
+
+1. Clone the repository
+```
+git clone https://github.com/Lokesh-Sapkal/web-development-internship-tasks.git
+```
+2. Open any task folder
+```
+cd task2-e-commerce-product-page
+```
+3. Open index.html in your browser
+
+---
+
 ### 👨‍💻 Author
 **Lokesh Sapkal**  
 Web Development Intern
+
+---
+
+### ⭐ If you like this project, feel free to star the repository!
+
+---
+
+### 📝 License
+This project is licensed under the **MIT License** – feel free to use and modify.
 
 ---

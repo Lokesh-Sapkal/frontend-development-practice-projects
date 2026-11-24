@@ -1,9 +1,7 @@
-# web-development-internship-tasks
-This repository contains a collection of front-end web development tasks completed as part of my Web Development Internship.
+# Frontend Development Practice Projects
+A collection of frontend web development projects created for practice and learning purposes using HTML5, CSS3 and JavaScript.
 
-The projects demonstrate practical skills in HTML, CSS and JavaScript, focusing on responsive design, clean UI/UX, DOM manipulation and interactive web applications.
-
-Each task is built as an independent mini-project to strengthen core front-end concepts and real-world development practices.
+This repository contains multiple mini-projects developed to strengthen my frontend development skills, improve UI design, practice responsive layouts and explore JavaScript-based interactive functionality.
 
 ---
 
@@ -13,13 +11,12 @@ Each task is built as an independent mini-project to strengthen core front-end c
 - **CSS3** – Flexbox, Grid, Media Queries 
 - **JavaScript (ES6)** – DOM manipulation, events, basic logic 
 - **Git & GitHub** – Version control & hosting 
-- **GitHub Pages** – Live project deployment 
 
 ---
 
 ## 📁 Folder Structure
 ```
-web-development-internship-tasks/
+frontend-development-practice-projects/
 │
 ├── task1-online-portfolio-website/
 ├── task2-e-commerce-product-page/
@@ -282,7 +279,7 @@ width="500"/>
 
 1. Clone the repository
 ```
-git clone https://github.com/Lokesh-Sapkal/web-development-internship-tasks.git
+git clone https://github.com/Lokesh-Sapkal/frontend-development-practice-projects.git
 ```
 2. Open any task folder
 ```
@@ -294,7 +291,7 @@ cd task2-e-commerce-product-page
 
 ### 👨‍💻 Author
 **Lokesh Sapkal**  
-Web Development Intern
+MCA Graduate | Software Developer
 
 ---
 
